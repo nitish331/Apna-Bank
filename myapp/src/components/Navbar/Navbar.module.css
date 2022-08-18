@@ -1,0 +1,137 @@
+html {
+  font-size: 10px;
+}
+body {
+  border: none;
+  outline: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  width: 100%;
+  height: 7rem;
+  padding: 0 3rem;
+}
+.heading {
+  font-size: 4rem;
+  align-self: center;
+}
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  align-items: center;
+  color: white;
+  z-index: 100;
+}
+.links a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: white;
+  transition: all 0.4s linear;
+  display: none;
+  z-index: 100;
+}
+.links a:hover {
+  color: black;
+}
+.link {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  align-items: center;
+  color: white;
+  z-index: 100;
+}
+.link a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: white;
+  transition: all 0.4s linear;
+  z-index: 100;
+}
+.link a:hover {
+  color: black;
+}
+.flexContainer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f011119c;
+  border-radius: 3rem;
+  margin: 2rem;
+  box-shadow: 0 0.5rem 3rem rgba(0, 0, 0, 13);
+}
+.icon {
+  font-size: 4rem;
+  color: white;
+  padding-top: 1rem;
+  padding-right: 1.5rem;
+  display: none;
+}
+@media (max-width: 945px) {
+  html {
+    font-size: 8px;
+  }
+}
+@media (max-width: 756px) {
+  html {
+    font-size: 6px;
+  }
+  .link a {
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 654px) {
+  html {
+    font-size: 5.2px;
+  }
+}
+@media (max-width: 549px) {
+  .link a {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 541px) {
+  .icon {
+    display: initial;
+    cursor: pointer;
+  }
+  .link a {
+    display: none;
+  }
+
+  .links {
+    display: initial flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .links a {
+    color: #fff;
+    font-weight: 600;
+    font-size: 3rem;
+    box-shadow: 0 0.5rem 4rem rgba(0, 0, 0, 13);
+    display: block;
+    text-align: center;
+    width: 100%;
+    border-radius: 2rem;
+    transition: all 0.4s linear;
+    background-color: black;
+  }
+  .links a:hover {
+    color: black;
+  }
+  .flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    margin-top: -2.7rem;
+  }
+}

@@ -1,0 +1,33 @@
+.table {
+  width: 100%;
+}
+.accountNumber {
+  width: 40%;
+}
+.type {
+  width: 20%;
+}
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.card {
+  width: 90%;
+  height: 25rem;
+  background-color: blue;
+  margin-top: 7rem;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}
+@media (max-width: 670px) {
+  .card {
+    margin-left: 4rem;
+  }
+}

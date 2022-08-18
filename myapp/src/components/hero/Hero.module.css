@@ -1,0 +1,222 @@
+.flexContainwer {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #b8b8e1;
+  border-radius: 6rem;
+}
+.heroflex h1 {
+  font-size: 5.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #0c0c6d;
+}
+.heroflex p {
+  text-align: center;
+  padding-top: 0rem;
+  font-size: 1.5rem;
+  padding-left: 2rem;
+  margin-bottom: 1.3rem;
+  font-weight: 500;
+  line-height: 2.5rem;
+  max-width: 90%;
+}
+.heroflex a:link,
+.heroflex a:visited {
+  display: inline-block;
+  padding: 1.6rem 3.2rem;
+  background-color: #f01111;
+  margin: 0 2rem;
+  font-size: 2rem;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+  border-radius: 2rem;
+  margin-left: 9rem;
+}
+.heroflex a:hover,
+.heroflex a:active {
+  background-color: #f011119c;
+  transform: scale(0.9);
+}
+.imageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+  justify-content: space-between;
+}
+.imageContainer img {
+  border-radius: 3rem;
+  max-width: 30rem;
+  max-height: 30rem;
+  box-shadow: 0 0.5rem 3rem rgba(0, 0, 0, 13);
+}
+.imageContainer {
+  animation: img1 2.5s linear infinite;
+  animation-direction: reverse;
+}
+@keyframes img1 {
+  0% {
+    transform: translateY(-0%);
+  }
+  25% {
+    transform: translateY(-3rem);
+  }
+  50% {
+    transform: translateY(0%);
+  }
+  75% {
+    transform: translateY(3rem);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+@media (max-width: 1060px) {
+  .heroflex h1 {
+    font-size: 4.5rem;
+  }
+  .heroflex p {
+    font-size: 1.4rem;
+  }
+  .heroflex a {
+    font-size: 1.5rem;
+    padding: 1.3rem 2.6rem;
+  }
+  .flexContainwer {
+    height: 120vh;
+    grid-template-columns: 2fr 1fr;
+  }
+  .imageContainer img {
+    max-width: 23rem;
+    max-height: 23rem;
+  }
+  .imageContainer {
+    animation: img1 2.5s linear infinite;
+    animation-direction: reverse;
+  }
+  @keyframes img1 {
+    0% {
+      transform: translateY(-0%);
+    }
+    25% {
+      transform: translateY(-1.5rem);
+    }
+    50% {
+      transform: translateY(0%);
+    }
+    75% {
+      transform: translateY(1.5rem);
+    }
+    100% {
+      transform: translateY(0%);
+    }
+  }
+}
+@media (max-width: 944px) {
+  .flexContainwer {
+    height: 90vh;
+    z-index: 2;
+  }
+  .imageContainer img {
+    max-height: 23rem;
+    max-width: 23rem;
+  }
+  .heroflex p {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 757px) {
+  .flexContainwer {
+    max-height: 80vh;
+    z-index: 2;
+  }
+  .imageContainer img {
+    max-height: 26rem;
+    max-width: 26rem;
+  }
+  .heroflex p {
+    font-size: 2.2rem;
+  }
+  .heroflex h1 {
+    font-size: 6rem;
+  }
+}
+@media (max-width: 655px) {
+  .heroflex h1 {
+    font-size: 5.5rem;
+  }
+  .heroflex p {
+    font-size: 2.5rem;
+  }
+  .flexContainwer {
+    max-height: 80vh;
+  }
+  .imageContainer img {
+    max-width: 30rem;
+    max-height: 30rem;
+  }
+}
+
+@media (max-width: 463px) {
+  .flexContainwer {
+    max-height: 80vh;
+  }
+  .imageContainer img {
+    max-width: 23rem;
+    max-height: 23rem;
+  }
+  .heroflex h1 {
+    font-size: 4.3rem;
+  }
+  .heroflex p {
+    font-size: 1.9rem;
+  }
+  .heroflex a {
+    font-size: 1.1rem;
+    padding: 0.4rem 1rem;
+    display: inline;
+    margin-left: -1rem;
+    text-align: center;
+  }
+  .heroflex .button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+  }
+}
+@media (max-width: 371px) {
+  .imageContainer img {
+    max-height: 15rem;
+    max-width: 15rem;
+  }
+  .heroflex h1 {
+    font-size: 5rem;
+  }
+  .heroflex p {
+    font-size: 2rem;
+  }
+  .heroflex a {
+    padding: 0.8rem;
+    font-size: 1.5rem;
+    margin-left: 0;
+  }
+  .imageContainer {
+    display: none;
+  }
+  .flexContainwer {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 288px) {
+  .button {
+    display: none;
+    opacity: 0;
+  }
+}

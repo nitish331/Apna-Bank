@@ -1,0 +1,27 @@
+.footerdiv {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 2rem;
+  list-style: none;
+  max-width: 18rem;
+}
+.footerlist {
+  font-size: 1.5rem;
+  letter-spacing: 1.8px;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+.footerbox {
+  background-color: aqua;
+  border-radius: 3rem;
+  box-shadow: 1rem 2rem 1rem 1rem rgba(0, 0, 0, 0.438);
+}
+.link {
+  /* text-decoration: none; */
+  color: black;
+}
+.link:hover {
+  text-decoration: none;
+}

@@ -1,0 +1,40 @@
+.card {
+  background-color: aqua;
+  box-shadow: 1rem 2rem 2px 3px rgba(133, 49, 49, 0.836);
+  width: 20rem;
+  border-radius: 3rem;
+}
+.head {
+  font-weight: 800;
+  font-family: sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+.image {
+  padding-left: 5rem;
+  height: 9rem;
+  width: 9rem;
+}
+@media (max-width: 300px) {
+  .card {
+    width: 15rem;
+  }
+  .head {
+    font-size: 2rem;
+  }
+  .image {
+    padding-left: 3rem;
+  }
+}
+@media (max-width: 210px) {
+  .card {
+    width: 10rem;
+  }
+  .head {
+    font-size: 1rem;
+  }
+  .image {
+    padding-left: 1rem;
+  }
+}

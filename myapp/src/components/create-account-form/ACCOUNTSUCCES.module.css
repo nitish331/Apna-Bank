@@ -1,0 +1,18 @@
+.center {
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+}
+.center2 {
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

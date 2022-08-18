@@ -1,0 +1,88 @@
+.card {
+  width: 70%;
+  height: 25rem;
+  margin: 7rem;
+  border-radius: 3rem;
+  border-style: double;
+  border-color: azure;
+  border-width: 1rem;
+  background-color: #7ee8fa;
+  background-image: linear-gradient(315deg, #7ee8fa 0%, #80ff72 74%);
+}
+.heading {
+  border: 1.2rem double azure;
+  border-radius: 1rem;
+  display: inline-block;
+  padding: 3rem;
+  margin: 2rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+.display {
+  display: flex;
+  justify-content: space-around;
+}
+.name {
+  justify-self: center;
+  align-self: center;
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  font-weight: 700;
+  border-style: inset;
+  padding: 1rem;
+}
+.number {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: sans-serif;
+  border-style: inset;
+  border-radius: 2rem;
+  padding: 1rem;
+  margin: 2rem;
+}
+.input {
+  width: 40rem;
+  border-radius: 1rem;
+  font-size: 2rem;
+  font-weight: 400;
+  padding: 1rem 1rem;
+}
+.button {
+  border-radius: 0.8rem;
+  color: black;
+  font-size: 3rem;
+  font-weight: 900;
+  background-color: #f22929;
+  transition: all 0.5s linear;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+}
+.label {
+  font-size: 2rem;
+  display: block;
+  font-family: sans-serif;
+  font-weight: 600;
+  padding-bottom: 1rem;
+}
+.FormCard {
+  padding: 0rem 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+@media (max-width: 320px) {
+  .card {
+    height: 30rem;
+  }
+  .input {
+    width: 25rem;
+  }
+}

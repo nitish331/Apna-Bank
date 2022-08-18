@@ -1,0 +1,17 @@
+.h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  display: inline-block;
+  text-align: center;
+  font-family: sans-serif;
+  border-style: double;
+  border-color: blue;
+  border-width: 2rem;
+  margin: 3rem;
+}
+.display {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

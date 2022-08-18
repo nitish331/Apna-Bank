@@ -1,0 +1,73 @@
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  width: 95vw;
+  gap: 3rem;
+  overflow-x: hidden;
+  /* flex-wrap: wrap;/ */
+  /* margin: 0 3rem; */
+  margin-top: 3rem;
+  border: 2rem double blue;
+  border-image: linear-gradient(45deg, turquoise, greenyellow) 1;
+}
+.image {
+  height: 40rem;
+  width: 50rem;
+  border-radius: 3rem;
+}
+.parah {
+  font-size: 2rem;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  /* margin-top: 3rem; */
+  letter-spacing: 3px;
+  line-height: 3rem;
+}
+@media (max-width: 757px) {
+  .parah {
+    font-size: 2.5rem;
+    line-height: 4rem;
+    margin-top: 1rem;
+  }
+  .image {
+    height: 35rem;
+    width: 45rem;
+  }
+}
+@media (max-width: 581px) {
+  .parah {
+    font-size: 2.2rem;
+    line-height: 3rem;
+    letter-spacing: 2.5px;
+  }
+}
+@media (max-width: 490px) {
+  .parah {
+    font-size: 1.6rem;
+    letter-spacing: 1.5px;
+    line-height: 2rem;
+  }
+  .image {
+    height: 20rem;
+    width: 30rem;
+  }
+}
+@media (max-width: 330px) {
+  .parah {
+    font-size: 2rem;
+    letter-spacing: 2px;
+    line-height: 3rem;
+  }
+  .image {
+    margin-left: 2rem;
+    height: 20rem;
+    width: 30rem;
+    border: 2rem double blue;
+  }
+  .flexbox {
+    flex-wrap: wrap-reverse;
+    border: 2rem double blue;
+    border-image: linear-gradient(45deg, turquoise, greenyellow) 1;
+  }
+}

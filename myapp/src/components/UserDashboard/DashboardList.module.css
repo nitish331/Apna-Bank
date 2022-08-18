@@ -1,0 +1,46 @@
+.card {
+  width: 30rem;
+  height: 100vh;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+  padding: 1rem 2rem 2rem 1rem;
+  border-radius: 2rem;
+  margin: 2rem;
+  background-color: #fce043;
+  background-image: linear-gradient(315deg, #fce043 0%, #fb7ba2 74%);
+}
+.card ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  cursor: pointer;
+  row-gap: 2rem;
+}
+.Link {
+  display: block;
+  text-decoration: none;
+  font-size: 2.2rem;
+  font-weight: 600;
+  font-family: sans-serif;
+  padding: 1rem;
+  text-align: center;
+}
+.card ul li:hover {
+  box-shadow: 0 0 4rem 0.5rem #9fcf2d;
+  background-color: #8d5185;
+  background-image: linear-gradient(315deg, #8d5185 0%, #a1bafe 74%);
+  border-radius: 2rem;
+}
+.active {
+  box-shadow: 0 0 4rem 0.5rem #9fcf2d;
+  background-color: #8d5185;
+  background-image: linear-gradient(315deg, #8d5185 0%, #a1bafe 74%);
+  border-radius: 2rem;
+}
+@media (max-width: 670px) {
+  .card {
+    width: 90vw;
+    height: 25rem;
+  }
+}

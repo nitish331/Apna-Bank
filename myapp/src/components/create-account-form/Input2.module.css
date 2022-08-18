@@ -1,0 +1,61 @@
+.card {
+  min-height: 50vh;
+  max-width: 95vw;
+  background-color: #e7e7f0;
+  margin: 2rem 1rem;
+  padding: 3rem 0;
+  box-shadow: 0 0.5rem 3rem rgba(0, 0, 0, 13);
+  border-radius: 3rem;
+  overflow-x: hidden;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3rem;
+  margin-left: 23rem;
+}
+.flex div {
+  display: flex;
+  flex-direction: column;
+}
+.flex div label {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.flex div input {
+  font-size: 1.9rem;
+  height: 3rem;
+}
+.btn {
+  display: inline-block;
+  margin-left: 40vw;
+  padding: 0.5rem 4rem;
+  color: #0c0c6d;
+  background-color: #f01111;
+  box-shadow: 0 0.5rem 3rem rgba(0, 0, 0, 13);
+  font-weight: 900;
+  letter-spacing: 9px;
+  border-radius: 20px;
+  font-size: 3rem;
+  transition: all 0.5s linear;
+}
+.btn:hover {
+  box-shadow: none;
+  color: black;
+  background-color: #fff;
+}
+@media (max-width: 310px) {
+  .flex {
+    margin-left: 6.5rem;
+  }
+  .btn {
+    margin: auto;
+    display: block;
+  }
+} ;

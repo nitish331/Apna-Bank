@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  border-radius: 10%;
+  flex-wrap: nowrap;
+  gap: 1rem;
+  width: 18rem;
+  background-color: #7ee8fa;
+  background-image: linear-gradient(315deg, #7ee8fa 0%, #80ff72 74%);
+  transition: all 1s linear;
+}
+.container:hover {
+  transform: scale(1.1);
+}
+.image {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 1rem;
+}
+.imagecontainer {
+  width: 18rem;
+  height: 17rem;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+.container h1 {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}

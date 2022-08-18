@@ -1,0 +1,94 @@
+.fullFlex {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+  flex-shrink: 1;
+  min-height: 100vh;
+  min-width: 100vw;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.heading {
+  text-align: center;
+  font-size: 6rem;
+  color: #f9a0a0;
+}
+.heading span {
+  padding: 1.6rem 3.2rem;
+  background-color: #f01111;
+  border-radius: 3rem;
+}
+
+.flex {
+  padding: 1rem;
+  width: 29rem;
+  height: 49rem;
+  box-shadow: 0 0.5rem 3rem rgba(0, 0, 0, 13);
+  background-color: #e7e7f0;
+  border-radius: 2rem;
+}
+.flex h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: -0.8px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.flex ul {
+  list-style: none;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2.5rem;
+}
+.flex ul li ion-icon {
+  font-size: 1.5rem;
+  color: black;
+}
+.flex ul li {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  width: 18rem;
+  justify-self: left;
+}
+.flex ul li span {
+  display: inline-block;
+}
+.flex:nth-child(3) {
+  background-color: black;
+  color: #fff;
+}
+.flex:nth-child(3) ul ion-icon {
+  color: #fff;
+}
+
+.flex a {
+  color: black;
+  display: block;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: 600;
+  text-align: center;
+  margin: 1rem 3rem;
+  background-color: #f01111;
+  font-size: 2rem;
+  border-radius: 2rem;
+  padding: 0.3rem;
+}
+.flex a:hover,
+.flex a:active {
+  background-color: white;
+}
+.flex:nth-child(3) a:link,
+.flex:nth-child(3) a:visited {
+  background-color: green;
+  color: white;
+}
+.flex:nth-child(3) a:hover,
+.flex:nth-child(3) a:active {
+  background-color: #fff;
+  color: black;
+}

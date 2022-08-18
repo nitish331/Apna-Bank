@@ -1,0 +1,39 @@
+.card {
+  padding: 8rem;
+  /* background-color: #e7e7f0; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6rem;
+}
+.card form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+}
+.card form div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.card form div label {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.card form div input {
+  height: 3rem;
+  font-size: 2.5rem;
+}
+.card form button {
+  border-radius: 0.8rem;
+  color: black;
+  font-size: 3rem;
+  font-weight: 900;
+  background-color: #f22929;
+  transition: all 0.5s linear;
+}
+.card form button:hover {
+  color: black;
+  background-color: #e7e7e7;
+}

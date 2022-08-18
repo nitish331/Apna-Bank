@@ -1,0 +1,11 @@
+.heading {
+  text-align: center;
+  font-size: 5rem;
+  font-family: sans-serif;
+  color: #f01111ef;
+}
+@media (max-width: 330px) {
+  .heading {
+    font-size: 4rem;
+  }
+}

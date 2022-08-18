@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+body {
+  font-family: "Poppins" sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.heading {
+  font-size: 6rem;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  letter-spacing: -1.3px;
+}
+
+.card {
+  min-height: 100vh;
+  max-width: 95vw;
+  background-color: #e7e7f0;
+  margin: 2rem 1rem;
+  padding: 3rem 0;
+  box-shadow: 0 0.5rem 3rem rgba(0, 0, 0, 13);
+  border-radius: 3rem;
+  overflow-x: hidden;
+}
+.flex {
+  display: flex;
+  padding-left: 9rem;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15rem;
+  margin-bottom: 8rem;
+}
+.flex div {
+  display: flex;
+  flex-direction: column;
+}
+.flex div label {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.flex div input {
+  height: 2rem;
+  border-radius: 1rem;
+}
+.flex div select {
+  height: 3rem;
+  border-radius: 1rem;
+}
+.btn {
+  display: inline-block;
+  margin-left: 40vw;
+  padding: 0.5rem 4rem;
+  color: #0c0c6d;
+  background-color: #f01111;
+  box-shadow: 0 0.5rem 3rem rgba(0, 0, 0, 13);
+  font-weight: 900;
+  letter-spacing: 9px;
+  border-radius: 20px;
+  font-size: 3rem;
+  transition: all 0.5s linear;
+}
+.btn:hover {
+  box-shadow: none;
+  color: black;
+  background-color: #fff;
+}
+@media (max-width: 998px) {
+  .flex {
+    gap: 4rem;
+  }
+}
+@media (max-width: 713px) {
+  .flex div label {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 542px) {
+  .flex div input {
+    height: 3rem;
+  }
+  .flex div select {
+    height: 5rem;
+  }
+}
+@media (max-width: 343px) {
+  .flex div label {
+    font-size: 3rem;
+  }
+} ;

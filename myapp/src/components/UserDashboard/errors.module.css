@@ -1,0 +1,67 @@
+.header {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  font-family: sans-serif;
+  text-align: center;
+}
+.card {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding: 5rem;
+  border-style: double;
+  border-width: 1rem;
+  margin-top: 2rem;
+}
+.heading {
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: sans-serif;
+  text-align: center;
+}
+.display {
+  padding: 2rem 2rem;
+  display: flex;
+  width: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 2rem;
+  justify-content: space-between;
+  background-color: #20bf55;
+  background-image: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+  border-radius: 2rem;
+}
+.display p {
+  font-size: 3rem;
+  font-weight: 600;
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.link {
+  font-size: 3rem;
+  font-weight: 600;
+  font-family: sans-serif;
+  padding: 1rem;
+  text-decoration: none;
+}
+.active {
+  box-shadow: 0 0 4rem 0.5rem #9fcf2d;
+  background-color: #8d5185;
+  background-image: linear-gradient(315deg, #8d5185 0%, #a1bafe 74%);
+  border-radius: 2rem;
+}
+@media (max-width: 366px) {
+  .display {
+    flex-direction: column;
+    row-gap: 3rem;
+  }
+  .link {
+    display: inline-block;
+    margin: auto;
+  }
+} ;

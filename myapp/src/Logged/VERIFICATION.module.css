@@ -1,0 +1,88 @@
+.heading {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 3.5rem;
+  color: black;
+  text-align: center;
+}
+.card {
+  width: auto;
+  padding: 2rem;
+  margin: 2rem;
+  background-color: #7ee8fa;
+  background-image: linear-gradient(315deg, #7ee8fa 0%, #80ff72 74%);
+  border-radius: 2rem;
+}
+.display {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  row-gap: 3rem;
+}
+.details {
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+.button {
+  display: inline-block;
+  text-align: center;
+  padding: 2rem;
+  width: 30%;
+  background-color: azure;
+  font-weight: 600;
+  font-size: 2.8rem;
+  border-radius: 3rem;
+  font-family: sans-serif;
+  transform: translateX(100%);
+}
+.displayNav {
+  padding: 2rem 2rem;
+  display: flex;
+  width: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 2rem;
+  justify-content: space-between;
+  background-color: #20bf55;
+  background-image: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+  border-radius: 2rem;
+}
+.displayNav p {
+  font-size: 3rem;
+  font-weight: 600;
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.link {
+  font-size: 3rem;
+  font-weight: 600;
+  font-family: sans-serif;
+  padding: 1rem;
+  text-decoration: none;
+}
+.active {
+  box-shadow: 0 0 4rem 0.5rem #9fcf2d;
+  background-color: #8d5185;
+  background-image: linear-gradient(315deg, #8d5185 0%, #a1bafe 74%);
+  border-radius: 2rem;
+}
+@media (max-width: 366px) {
+  .displayNav {
+    flex-direction: column;
+    row-gap: 3rem;
+  }
+  .link {
+    display: inline-block;
+    margin: auto;
+  }
+  .details {
+    font-size: 1.3rem;
+  }
+  .button {
+    font-size: 1.8rem;
+    width: 40%;
+  }
+} ;
